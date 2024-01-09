@@ -1,0 +1,61 @@
+Ya Betcha, Let's Get This NBA Tracker Goin', Dontcha Know!
+
+Step 1: Gatherin' What Ya Need
+
+First off, make sure ya got everything ya need:
+- A computer, oh yah, and it should be a decent one.
+- Internet connection – gotta be good and steady, like a Minnesota winter.
+- Python installed – that’s what runs the whole shebang.
+- Discord account and a bot token – you'll be needing this for sending those game updates.
+
+Step 2: Gettin' Your Python Ready
+
+Now, don'tcha know, you gotta install some Python packages. Open up your terminal or command prompt and type these in, one by one:
+
+pip install discord.py
+pip install nba_api
+pip install python-dateutil
+
+That'll get all the Python stuff you need, sure as hotdish at a potluck.
+
+Step 3: Settin' Up Your Discord Bot
+
+Oofda, this part's important:
+- Head on over to the Discord Developer Portal.
+- Create a new bot – give it a nice name, maybe somethin' sporty.
+- Copy the bot token – but keep it secret, keep it safe!
+
+Step 4: Pluggin' In Your Bot Token
+
+Open up the Python script you just got all spiffed up:
+- Find the line at the bottom that says `client.run('YOUR_DISCORD_BOT_TOKEN')`.
+- Replace `'YOUR_DISCORD_BOT_TOKEN'` with the actual token ya got from Discord, sure thing.
+
+Step 5: Runnin' Your Bot
+
+Alright, you betcha, time to run it:
+- Go back to your terminal or command prompt.
+- Navigate to where your script is saved.
+- Type `python your_script_name.py` and hit Enter.
+
+Step 6: Enjoy, Ya Got It!
+
+Now, if all's done right, your bot should be up and runnin' faster than a snowmobile on a frozen lake. It'll be sendin' NBA game updates right to your Discord server. Grab a pop and enjoy the game, dontcha know!
+
+Step 7: Running the NBA Score Tracker with start.sh (optional)
+
+he start.sh script provides a hassle-free way to launch and manage your NBA Score Tracker directly from the command line. Just follow these simple steps to get started:
+
+Prepare Your Scripts: Ensure that both the start.sh script and the nba.py script are saved in the same directory on your computer.
+
+Access the Terminal: Open the terminal on your system.
+
+Navigate to Your Script: Change your current directory to where your scripts are located. Use the cd command, like so: cd path/to/your/scripts.
+
+Make the Script Executable: If you haven't already, you need to grant execution permissions to the start.sh script. Type chmod +x start.sh and hit Enter.
+
+Launch the Script: Now, execute the script by typing ./start.sh in your terminal and pressing Enter.
+
+Graceful Interruption: Should you need to stop the tracker, simply press Ctrl+C. The start.sh script is designed to ensure a smooth and clean termination of both the shell and the Python script.
+
+And there you go! Enjoy tracking NBA scores in real time, right from your terminal.
